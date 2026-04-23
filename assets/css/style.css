@@ -1,1 +1,48 @@
+/*Esta es la configuración base */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: #FDFBF8;
+    font-family: DM Sans, sans-serif;
+}
+
+/*Estilos Navbar*/
+
+.navbar-personal {
+    --bs-navbar-color: #3E3A46;             /* pizarra para los links */
+    --bs-navbar-hover-color: #4B0F2C;       /* vino al pasar el mouse */
+    --bs-navbar-active-color: #4B0F2C;      /* vino para el link activo */
+    --bs-navbar-brand-color: #111;          /* Color del logo */
+    --bs-navbar-brand-font-size: 1.25rem;      /* Logo más grande */
+    --bs-navbar-padding-y: 1.2rem;            /* Navbar más alto */
+    --bs-navbar-position: fixed
+
+}
+
+.navbar-luna .navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(30%) saturate(515%) hue-rotate(3deg) brightness(97%) contrast(88%);
+}
+
+.nav-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--negro);
+      letter-spacing: -0.02em;
+    }
+
+.nav-name span{
+color: #4B0F2C;
+}
+
+.btn-nav-pers{
+    background-color: #4B0F2C;
+    color: #FDFBF8;
+    border: #4B0F2C;
+}
+
+.btn-nav-pers:hover {
+    background-color: #6B1F3A;
+    color: #FDFBF8;
+}
