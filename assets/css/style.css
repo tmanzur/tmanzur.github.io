@@ -22,7 +22,9 @@ body {
     /* Logo más grande */
     --bs-navbar-padding-y: 1.2rem;
     /* Navbar más alto */
-    --bs-navbar-position: fixed
+    --bs-navbar-position: fixed;
+    
+    background-color: #FDFBF8;
 }
 
 .navbar-luna .navbar-toggler-icon {
@@ -44,13 +46,35 @@ body {
 .btn-contacto-pers {
     background-color: #4B0F2C;
     color: #FDFBF8;
-    border: #4B0F2C;
 }
 
-.btn-nav-pers:hover {
+.btn-contacto-pers:hover {
     background-color: #6B1F3A;
     color: #FDFBF8;
+    outline: 2px solid #6B1F3A;
 }
+
+/*Estilos Hero*/
+
+header{
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+.hero-name{
+    font-family: 'Playfair Display', serif;
+    color: #212529;
+}
+
+.hero-name em{
+    color: #6B1F3A;
+}
+
+.img-hero{
+    width: auto;
+    max-width: 32rem;
+}
+
 
 /*Estilos Footer*/
 
