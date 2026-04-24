@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body{
+body {
     background-color: #FDFBF8;
     font-family: DM Sans, sans-serif;
 }
@@ -10,14 +10,19 @@ body{
 /*Estilos Navbar*/
 
 .navbar-personal {
-    --bs-navbar-color: #3E3A46;             /* pizarra para los links */
-    --bs-navbar-hover-color: #4B0F2C;       /* vino al pasar el mouse */
-    --bs-navbar-active-color: #4B0F2C;      /* vino para el link activo */
-    --bs-navbar-brand-color: #111;          /* Color del logo */
-    --bs-navbar-brand-font-size: 1.25rem;      /* Logo más grande */
-    --bs-navbar-padding-y: 1.2rem;            /* Navbar más alto */
+    --bs-navbar-color: #3E3A46;
+    /* pizarra para los links */
+    --bs-navbar-hover-color: #4B0F2C;
+    /* vino al pasar el mouse */
+    --bs-navbar-active-color: #4B0F2C;
+    /* vino para el link activo */
+    --bs-navbar-brand-color: #111;
+    /* Color del logo */
+    --bs-navbar-brand-font-size: 1.25rem;
+    /* Logo más grande */
+    --bs-navbar-padding-y: 1.2rem;
+    /* Navbar más alto */
     --bs-navbar-position: fixed
-
 }
 
 .navbar-luna .navbar-toggler-icon {
@@ -25,18 +30,18 @@ body{
 }
 
 .nav-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--negro);
-      letter-spacing: -0.02em;
-    }
-
-.nav-name span{
-color: #4B0F2C;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--negro);
+    letter-spacing: -0.02em;
 }
 
-.btn-nav-pers{
+.nav-name span {
+    color: #6B1F3A;
+}
+
+.btn-contacto-pers {
     background-color: #4B0F2C;
     color: #FDFBF8;
     border: #4B0F2C;
@@ -45,4 +50,65 @@ color: #4B0F2C;
 .btn-nav-pers:hover {
     background-color: #6B1F3A;
     color: #FDFBF8;
+}
+
+/*Estilos Footer*/
+
+footer {
+    background-color: #111;
+    color: #FDFBF8;
+    padding: 3rem 5%;
+}
+
+.footer-name {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.footer-name span {
+    color: #6B1F3A;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+footer span {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.footer-contact {
+    font-family: 'Playfair Display', serif;
+}
+
+footer em {
+    color: #6B1F3A;
+}
+
+.footer-input {
+    background-color: #111;
+    color: rgba(255, 255, 255, 0.25);
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #1a1a1a;
+    color: white;
+    border-color: #6B1F3A;      
+    box-shadow: 0 0 0 0.25rem rgba(107, 31, 58, 0.25); 
+}
+
+.form-control::placeholder {
+    color: #bbb; 
+    opacity: 1;  
 }
