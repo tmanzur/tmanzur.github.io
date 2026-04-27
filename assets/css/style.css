@@ -7,6 +7,17 @@ body {
     font-family: DM Sans, sans-serif;
 }
 
+.btn-contacto-pers {
+    background-color: #4B0F2C;
+    color: #FDFBF8;
+}
+
+.btn-contacto-pers:hover {
+    background-color: #6B1F3A;
+    color: #FDFBF8;
+    outline: 2px solid #6B1F3A;
+}
+
 /*Estilos Navbar*/
 
 .navbar-personal {
@@ -23,7 +34,6 @@ body {
     --bs-navbar-padding-y: 1.2rem;
     /* Navbar más alto */
     --bs-navbar-position: fixed;
-    
     background-color: #FDFBF8;
 }
 
@@ -37,43 +47,91 @@ body {
     font-weight: 700;
     color: var(--negro);
     letter-spacing: -0.02em;
-  
 }
 
 .nav-name span {
     color: #6B1F3A;
 }
 
-.btn-contacto-pers {
-    background-color: #4B0F2C;
-    color: #FDFBF8;
-}
-
-.btn-contacto-pers:hover {
-    background-color: #6B1F3A;
-    color: #FDFBF8;
-    outline: 2px solid #6B1F3A;
-}
-
 /*Estilos Hero*/
 
-header{
-padding-top: 3rem;
-padding-bottom: 3rem;
+header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-.hero-name{
+.hero-name {
     font-family: 'Playfair Display', serif;
     color: #212529;
 }
 
-.hero-name em{
+.hero-name em {
     color: #6B1F3A;
 }
 
-.img-hero{
-    width: auto;
-    max-width: 32rem;
+/* CV+Portafolio*/
+.cv_portafolio {
+    padding: 4rem;
+    background-color: #D9CFC0;
+}
+
+
+.card-cv {
+    background-color: #1B3A4B;
+    color: #FDFBF8;
+}
+
+.card-cv h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+.card-portafolio {
+    background-color: #4B0F2C;
+    color: #FDFBF8;
+}
+
+.card-portafolio h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-portafolio-pers {
+    background-color: #6B1F3A;
+    color: #FDFBF8;
+    border: solid 1px #FDFBF8;
+}
+
+
+.btn-cv-pers {
+    background-color: #2A5065;
+    color: #FDFBF8;
+    border: solid 1px #FDFBF8;
+}
+
+.btn-cv-pers:hover {
+    background-color: #2A5065;
+    color: #FDFBF8;
+    outline: 2px solid #FDFBF8;
+    opacity: 50%;
+}
+
+/*About me*/
+
+.about_me {
+    color: #3E3A46;
+}
+
+.perfil-contenedor {
+    height: 600px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+}
+
+.perfil-contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 
@@ -129,11 +187,11 @@ footer em {
 .form-control:focus {
     background-color: #1a1a1a;
     color: white;
-    border-color: #6B1F3A;      
-    box-shadow: 0 0 0 0.25rem rgba(107, 31, 58, 0.25); 
+    border-color: #6B1F3A;
+    box-shadow: 0 0 0 0.25rem rgba(107, 31, 58, 0.25);
 }
 
 .form-control::placeholder {
-    color: #bbb; 
-    opacity: 1;  
+    color: #bbb;
+    opacity: 1;
 }
